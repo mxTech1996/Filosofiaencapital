@@ -13,19 +13,19 @@ const Navbar = () => {
       <div className="bg-black text-white text-center py-2">
         Enjoy the best courses with experienced professional teachers.
       </div>
-      <div className="flex justify-between items-center py-4 px-8 bg-white">
+      <div className="flex justify-between items-center py-2 px-8 bg-white">
         <Link className="font-bold text-lg" href="/">
           {dataSite.iconImage && (
             <Image
               src={dataSite.iconImage}
               alt={dataSite.name}
-              width={140}
+              width={100}
               height={50}
             />
           )}
         </Link>
 
-        <nav className="flex space-x-6">
+        <nav className="flex space-x-8">
           {navData.map((item, index) => (
             <Link key={index} href={item.href} className="hover:underline">
               {item.label}
