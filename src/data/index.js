@@ -1,6 +1,6 @@
-export const pageName = 'AKWC';
-export const primaryColor = '#000000';
-export const backgroundColor = '#FFFFFF';
+export const pageName = "AKWC";
+export const primaryColor = "#000000";
+export const backgroundColor = "#FFFFFF";
 export const makeClearBackground = (color) => {
   return {
     backgroundColor: color,
@@ -9,34 +9,34 @@ export const makeClearBackground = (color) => {
 
 export const navData = [
   {
-    href: '/#courses',
-    label: 'Our Course',
+    href: "/",
+    label: "Home",
   },
   {
-    href: '/#our-services',
-    label: 'Our Services',
+    href: "/#our-services",
+    label: "Best Services",
   },
   {
-    href: '/#references',
-    label: 'References',
+    href: "/#courses",
+    label: "Courses For You",
   },
   {
-    href: '/#know-us',
-    label: 'Know Us',
+    href: "/#references",
+    label: "Our References",
   },
   {
-    href: '/more-information',
-    label: 'Contact Us',
+    href: "/#more",
+    label: "More",
   },
 ];
 
 export const footerData = [
   {
-    href: '/pdf/AP.pdf',
-    label: 'Privacy',
+    href: "/pdf/AP.pdf",
+    label: "Privacy",
   },
   {
-    href: '/pdf/TYC.pdf',
-    label: 'Terms',
+    href: "/pdf/TYC.pdf",
+    label: "Terms",
   },
 ];
