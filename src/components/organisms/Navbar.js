@@ -1,13 +1,10 @@
 "use client";
 
-import { navData } from "@/data";
-import { useInformation } from "@/store/useInformation";
+import { navData, dataSite } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
-  const { dataSite } = useInformation();
-
   return (
     <nav className="w-full border-b">
       <div className="bg-black text-white text-center py-2">

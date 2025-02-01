@@ -1,10 +1,8 @@
 "use client";
 import { MainProvider } from "ecommerce-mxtech";
-import { useInformation } from "./useInformation";
-import { primaryColor } from "@/data";
+import { dataSite, primaryColor } from "@/data";
 
 const Provider = ({ children }) => {
-  const { dataSite } = useInformation();
   const products = dataSite.products.map((product) => {
     return {
       ...product,
