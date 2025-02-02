@@ -188,8 +188,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Video Background Section */}
+      <section className="relative h-[800px]">
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute w-full h-full object-cover"
+        >
+          <source src="/videos/background.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-black opacity-60" />
+
+        <div className="relative z-10 flex flex-col items-center justify-center h-full container mx-auto gap-5">
+          <h1 className="text-white text-4xl md:text-6xl font-bold">
+            Master Web Design with Our Courses
+          </h1>
+          <p className="text-white text-xl mt-4">
+            Learning web design is essential in today's digital age as it
+            empowers you to create visually appealing and user-friendly
+            websites. It enhances your creativity, improves your problem-solving
+            skills, and opens up numerous career opportunities in the tech
+            industry. Moreover, understanding web design principles allows you
+            to effectively communicate ideas and information online, making it a
+            valuable skill for personal and professional growth.
+          </p>
+        </div>
+      </section>
+
       {/* References */}
-      <div className="bg-black py-24 my-10 text-white" id="references">
+      <div className="bg-black py-24 mb-10 text-white" id="references">
         <div className="container mx-auto px-4 my-20">
           <h2 className="text-lg font-semibold text-gray-500 mb-2">
             Our References
