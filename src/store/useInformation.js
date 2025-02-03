@@ -9,7 +9,7 @@ const initialState = {
   name: "Filosofiaencapital",
   url: "http://w.w.w.terra.com",
   telephone: "5561400317",
-  email: "info@ejemplo.com",
+  email: "admcapitalhumano@emailsecure.lat",
   address:
     "AV JOSE VASCONCELOS 345, LOCAL 111, SANTA ENGRACIA, SAN PEDRO GARZA GARCIA, NUEVO LEON, C.P. 66267",
   description:
